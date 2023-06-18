@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JonyMasonry_Example' do
+  pod 'JonyMasonry', :path => '../'
+
+  target 'JonyMasonry_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
