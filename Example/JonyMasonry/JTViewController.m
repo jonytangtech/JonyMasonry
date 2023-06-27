@@ -7,6 +7,7 @@
 //
 
 #import "JTViewController.h"
+#import <TestPrint.h>
 
 @interface JTViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[TestPrint new] print];
+    
 }
 
 - (void)didReceiveMemoryWarning

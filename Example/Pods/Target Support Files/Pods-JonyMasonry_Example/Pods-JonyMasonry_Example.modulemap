@@ -1,0 +1,6 @@
+framework module Pods_JonyMasonry_Example {
+  umbrella header "Pods-JonyMasonry_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

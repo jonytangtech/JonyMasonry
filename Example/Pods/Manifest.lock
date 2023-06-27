@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JonyMasonry (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JonyMasonry (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JonyMasonry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JonyMasonry: c87dd0eb65fec578e464515756ad31ab017a01d0
+
+PODFILE CHECKSUM: 6f73cba7c52c409cda72403b6cf213700e7116b1
+
+COCOAPODS: 1.11.3
